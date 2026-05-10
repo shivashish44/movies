@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://i.ibb.co/qpxpGmC/image.jpg" alt="Jisshu-Auto-filter">
+  <img src="https://files.catbox.moe/zgy7zs.jpg" alt="Jisshu-Auto-filter">
 </p>
 <h1 align="center">
-  <a href="https://telegram.me/JISSHU_BOTS">Movie/Auto Filter Bot</a>
+  <a href="https://t.me/ll_DEVIL_SHIV_ll">Movie/Auto Filter Bot</a>
 </h1>
 <img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
 
@@ -58,8 +58,7 @@
 - [x] Most Search
 - [x] Set ads 
 - [x] 𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...
-</details>
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+
 
 ## Variables
 
@@ -72,77 +71,45 @@
 * `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+
   
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
-<details><summary>Deploy To Heroku</summary>
-<p>
-<br>
-<a href="https://heroku.com/deploy?template=https://github.com/Jisshubot/Jisshu-filter-bot">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
-</a>
+
+
+
+
+| Platform                | Deploy Link                                                                                                                                                                                               |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🔑 **Generate Session** | <a href="https://t.me/SessionBuilderbot"><img src="https://img.shields.io/badge/Session%20-Generator-blue?style=for-the-badge&logo=telegram"/></a>                                                    |
+| 🌍 **Heroku Deploy**    | <a href="http://dashboard.heroku.com/new?template=https://github.com/shivashish44/movies"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku"/></a> |
+
+
+
+
+## 💬 Community & Support
+
+<p align="center">
+  <a href="https://t.me/VivaanSupport">
+    <img src="https://img.shields.io/badge/Support_Group-Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
+  <a href="https://t.me/VivaanSupport">
+    <img src="https://img.shields.io/badge/Updates_Channel-Telegram-6A5ACD?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
+  <a href="https://t.me/EliteSid">
+    <img src="https://img.shields.io/badge/Contact_Owner-Telegram-4CAF50?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/elite.sid">
+    <img src="https://img.shields.io/badge/Follow-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a href="mailto:vivaannetwork@gmail.com">
+    <img src="https://img.shields.io/badge/Contact-Email-0078D4?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 </p>
-</details>
-
-<details><summary>Deploy To Koyeb</summary>
-<br>
-<b>The fastest way to deploy the application is to click the Deploy to Koyeb button below.</b>
-<br>
-<br>
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Jisshubots/Jisshu-filter-bot&branch=main&name=Jisshu-filter-bot )
-</details>
-
-<details><summary>Deploy To Render</summary>
-<br>
-<b>
-Use these commands:
-<br>
-<br>
-• Build Command: <code>pip3 install -U -r requirements.txt</code>
-<br>
-<br>
-• Start Command: <code>python3 bot.py</code>
-<br>
-<br>
-Go to https://uptimerobot.com/ and add a monitor to keep your bot alive.
-<br>
-<br>
-Use these settings when adding a monitor:</b>
-<br>
-<br>
-<img src="https://telegra.ph/file/a79a156e44f43c9833b50.jpg" alt="render template">
-<br>
-<br>
-<b>Click on the below button to deploy directly to render ↓</b>
-<br>
-<br>
-<a href="https://render.com/deploy?repo=https://github.com/Jisshubots/Jisshu-filter-bot/tree/main">
-<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
-</a>
-</details>
-
-<details><summary>Deploy To VPS</summary>
-<p>
-<pre>
-git clone https://github.com/Jisshubot/Jisshu-filter-bot
-# Install Packages
-pip3 install -U -r requirements.txt
-Edit info.py with variables as given below then run bot
-python3 bot.py
-</pre>
-</p>
-</details>
-
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
 
 
-## **Thanks to** 
- - <b>Thanks To [Zishan Khan](https://t.me/JISSHU_BOTS) To Modify And Add Amazing Feature In The Repo
- - Thanks To [biisal](https://github.com/biisal/biisal-filter-bot) For Base Repo
- - Thanks To [Ꭺɴᴏɴʏᴍᴏᴜꜱ](https://t.me/TG_Anonymous_Official) To refresh Future Code and Update premium future</b>
- - Thanks To [Zoro](https://t.me/JOYBOY_ZORO) Your ideas have been a huge help in improving this project. Thanks for your valuable input!
- - Thanks To [ɪᴛ'ꜱ ʟᴜғғʏ](https://t.me/CoderluffyTG) For fixing key errors and making the bot better. Your help has been truly appreciated!
- - Thanks To All Everyone In This Journey
- <img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+##
+### 🔖 Credits
+
+* <b> *sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ <a href="https://github.com/AnonymousX1025">ᴀɴᴏɴʏ</a> ғᴏʀ <a href="https://github.com/AnonymousX1025/AnonXMusic">ᴀɴᴏɴxᴍᴜsɪᴄ</a>* </b>
+* <b> *ᴄʀᴀғᴛᴇᴅ ᴡɪᴛʜ ᴘᴀssɪᴏɴ ʙʏ <a href="https://github.com/VivaanNetworkDev">ᴠɪᴠᴀᴀɴ ᴅᴇᴠs</a>* </b>
+
 
