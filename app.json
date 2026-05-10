@@ -1,0 +1,44 @@
+{
+  "name": " Movie Bot",
+  "description": "A Telegram bot for searching and sharing movies.",
+  "keywords": ["telegram", "bot", "python"],
+  "repository": "https://github.com/shivashish44/movies",
+  "logo": "https://files.catbox.moe/zgy7zs.jpg",
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID. Get it from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash. Get it from https://my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Bot Token. Get it from @BotFather on Telegram",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram User ID. Get it from @MissRose_bot by sending /id",
+      "required": true
+    },
+    "DATABASE_URI": {
+      "description": "Your MongoDB or PostgreSQL database URI (If your bot uses a database)",
+      "required": false
+    },
+    "LOG_CHANNEL": {
+      "description": "Channel ID for bot logs. Make sure the bot is an admin there. (Starts with -100)",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
