@@ -13,19 +13,19 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '21484'))
-API_HASH = environ.get('API_HASH', 'db6286a041adf07ef4244e')
+API_ID = int(environ.get('API_ID', '31681117'))
+API_HASH = environ.get('API_HASH', '56adbd4c29efd9d02d37d779b7732b60')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7807I9ygow9sLqNQuI7hsWPm5FLNfBr9c')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5016109398').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Innocent_babe_dead") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002190681742'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8418584090').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/betabot_hub") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003812209413'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+WxW5DBNJBkU5ODY1')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003812209413').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv:learningbajority&appName=learningbots")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://shivbots:shivashish@cluster0.kdzu3eg.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "learningbots")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
@@ -68,11 +68,11 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://files.catbox.moe/zgy7zs.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/_kA.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
+PAYPICS = (environ.get('PAYPICS', 'https://files.catbox.moe/q3mbng.png')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://files.catbox.moe/g5hjr7.png'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
