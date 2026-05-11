@@ -74,7 +74,7 @@ class JisshuxBot(Client):
                 yield message
                 current += 1
       
-betaBot = JisshuxBot()
+JisshuBot = JisshuxBot()
 
 multi_clients = {}
 work_loads = {}
